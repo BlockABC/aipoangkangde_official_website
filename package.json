@@ -1,0 +1,21 @@
+{
+  "name": "aipoangkangde_official_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "serve": "pm2 reload ecosystem.config.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
