@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
-    "serve": "pm2 reload ecosystem.config.js"
+    "reload_produciton": "pm2 reload ecosystem.config.js"
   },
   "dependencies": {
     "koa": "^2.7.0",
